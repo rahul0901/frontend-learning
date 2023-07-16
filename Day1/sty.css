@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.skill{
+    width: 90%;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.skill> h2{
+    text-align: center;
+}
+
+.box{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.bx{
+    width: 30%;
+    height: 120px;
+    border: 1px solid green;
+    margin: 20px 0px;
+}
+
+.bx-content{
+    height: ;
+}
+
