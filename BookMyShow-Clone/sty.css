@@ -327,3 +327,10 @@
     width: 115px;
     padding: 0px 20px;
 }
+
+.copy{
+    background-color: #333338;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
