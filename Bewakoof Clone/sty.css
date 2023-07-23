@@ -1,9 +1,82 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Oldschool Grotesk";
 }
 
-#screen{
+#screen {
     border: 1px solid green;
+}
+
+.navbar {
+    border: 1px solid red;
+    height: 137px;
+    max-width: 100%;
+}
+
+.first-nav{
+    height: 26px;
+    border: 1px solid red;
+    max-width: 100%;
+    background-color: #eeeeee;
+}
+
+.first-nav-content{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+    height: 100%;
+}
+
+.w-91{
+    width: 91%;
+    margin: auto;
+}
+
+.first-left> a{
+    /* font-family:'Montserrat','Sans-Serif'; */
+    font-size: 12px;
+    text-decoration: none;
+    color: #000000CC;
+    margin: 8px;
+    font-weight:100;
+}
+
+.first-right> a{
+    /* font-family:'montserrat','sans-serif'; */
+    font-size: 12px;
+    text-decoration: none;
+    color: #000000CC;
+    margin: 8px;
+    font-weight: 100;
+}
+/*  */
+
+.second-nav{
+    height: 52px;
+    border: 1px solid red;
+    max-width: 100%;
+    background-color: #ffffff;  
+}
+
+.second-nav-content{
+    border: 1px solid red;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-nav-left{
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-nav{
+    height: 59px;
+    border: 1px solid red;
+    max-width: 100%;
+    background-color: #ffffff;
 }
