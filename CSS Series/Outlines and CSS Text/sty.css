@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#screen{
+    border: 2px solid blue;
+}
+.outline{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid red;
+}
+
+.outline> h2{
+    margin-bottom: 20px;
+}
+
+.solid{
+    width: 60%;
+    margin: auto;
+    outline: 5px dotted green;
+    border: 2px solid red;
+}
+
+.dotted{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    outline: 5px dotted green;
+    border: 2px solid red;
+}
+
+.double{
+    width: 60%;
+    margin: auto;
+    outline: 5px double green;
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
+
+.textalign{
+    width: 70%;
+    margin: auto;
+    border: 2px solid green;
+}
+
+.textalign> h2{
+    margin-bottom: 20px;
+}
+
+.center{
+    width: 90%;
+    /* margin: auto; */
+    /* outline: 5px dotted green;*/
+    border: 2px solid red; 
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration-line:line-through;
+}
+
+.right{
+    width: 90%;
+    /* margin: auto; */
+    /* border: 2px solid red;  */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* outline: 5px dotted green;
+    border: 2px solid red; */
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration-line: overline;
+    letter-spacing: 10px;
+}
+
+.left{
+    width: 60%;
+    margin: auto;
+    /* outline: 5px double green;
+    border: 2px solid red; */
+    margin-bottom: 20px;
+    text-align: left;
+    text-transform: lowercase;
+    text-decoration-line: underline;
+    word-spacing: 4px;
+    text-decoration-color: red;
+}
+
+.justify{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-align-last: center;
+    text-decoration-line:overline underline;
+}
