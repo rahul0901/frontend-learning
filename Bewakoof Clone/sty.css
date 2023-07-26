@@ -167,21 +167,26 @@
     /* align-items: center; */
 }
 
-.third-nav-parent ul{
+.third-nav-ul-parent> ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* .third-nav-parent > ul{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
+} */
 
-.third-nav-parent > ul li{
+.third-nav-ul-parent > ul li{
     list-style-type: none;
 }
 
-.third-nav-parent > ul li a{
+.third-nav-ul-parent > ul li a{
     text-decoration: none;
     text-transform: uppercase;
     color: inherit;
-}
+} 
 
 .moving-banner{
     max-width: 100%;
