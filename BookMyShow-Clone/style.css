@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-#screen{
+/* #screen{
     border: 1px solid green;
-}
+} */
 
 .w-92{
     width: 92%;
@@ -19,6 +19,9 @@
     width: 100%;
     /* background-color: #222539; */
     color: white;
+    position: sticky;
+    top: 0px;
+    left: 0px;
 }
 
 .up{
