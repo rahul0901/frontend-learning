@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#screen{
+    width: 100%;
+    height: 500px;
+    border: 1px solid red;
+}
+
+.w-90{
+    width: 90%;
+    margin: auto;   
+}
+
+.parent-div{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+/* .parent-div > div ==> when we use this css it will be applicable only to child div's */
+
+
+.parent-div > div{
+    width: 20%;
+    border: 1px solid red;
+}
+
+.parent-div > div:nth-child(3) > div{
+    border: 1px solid green;
+}
+
+.parent-div > div:nth-child(3) > div:nth-child(3){
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+.parent-div > div:nth-child(3) > div:nth-child(3) > div{
+    background-color: blue;
+}
