@@ -5,19 +5,19 @@
 }
 
 #screen {
-    max-width: 100%;
+    width: 100%;
     height: 800px;
     border: 1px solid green;
 }
 
 .navbar {
     border: 1px solid red;
-    max-width: 100%;
+    width: 100%;
     height: 44px;
 }
 
 .nav-parent {
-    max-width: 90%;
+    width: 90%;
     margin: auto;
     height: 100%;
     display: flex;
@@ -31,40 +31,25 @@
 
 .nav-one {
     /* visibility: hidden; */
-    max-width: 10%;
-    /* border: 1px solid red; */
-}
-
-.nav-one-menu {
+    width: 10%;
     visibility: hidden;
+    /* border: 1px solid red; */
 }
 
 .nav-two {
-    max-width: 30%;
+    width: 95px;
+    height: 38px;
     /* border: 1px solid red; */
 }
 
-.nav-two-logo {
-    max-width: 95px;
-    height: 38px;
-}
-
-/* .nav-two img {
-    
-    text-decoration: none;
-    font-size: 24px;
-    color: black;
-    font-weight: bold;
-} */
-
 .nav-three {
-    max-width: 60%;
+    width: 60%;
 }
 
 .nav-three ul {
     display: flex;
     /* border: 1px solid red; */
-    max-width: 100%;
+    width: 100%;
 }
 
 .nav-three ul li {
@@ -81,41 +66,30 @@
 }
 
 .body-banner {
-    max-width: 100%;
+    width: 100%;
     height: 425px;
 }
 
 @media screen and (max-width:699px) {
 
     .nav-parent {
-        max-width: 90%;
+        width: 90%;
         margin: auto;
         border: 1px solid green;
     }
 
-    .nav-one-menu{
+    .nav-one {
+        border: 1px solid red;
+        width: 10%;
         visibility: visible;
     }
 
-    .nav-one{
-        border: 1px solid red;
-        max-width: 10%;
-    }
-
-    .nav-two{
+    .nav-two {
         border: 1px solid red;
         max-width: 90%;
     }
 
-    .nav-two-logo{
-        max-width: 100%;
-    }
-
-    .nav-two-logo img{
-        max-width: 100%;
-    }
-
-    .nav-three{
+    .nav-three {
         display: none;
     }
 
