@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight: bold;
+    font-size: large;
 }
 
 #screen{
     width: 100%;
-    height: 500px;
+    height: 900px;
     border: 1px solid red;
+    background-color: aliceblue;
 }
 
 .w-90{
@@ -18,27 +21,143 @@
 .parent-div{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     border: 1px solid red;
+    margin-top: 20px;
+    height: 500px;
 }
 
-/* .parent-div > div ==> when we use this css it will be applicable only to child div's */
+/* .parent-div > div ==> when we use this css it will be applicable only to child div's 
+mtlb hai ki parent-div ke andr jitn abhi div hai woh saaab div pe css applicable hoga
+*/
 
-
+/* child targetting div */
 .parent-div > div{
     width: 20%;
+    height: 420px;
     border: 1px solid red;
+    text-align: center;
+    background-color: violet;
+    text-transform: uppercase;
 }
 
+/* .parent-div > div:nth-child(3) > div ==> means parent-div ke andr 3 child div hai uske andr jitna bhi div hai woh target hoga isse */
+
+/* targetting all grand childs */
 .parent-div > div:nth-child(3) > div{
     border: 1px solid green;
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    background-color: aquamarine;
+    text-transform: uppercase;
 }
 
+/* targetting 3rd grand child div */
 .parent-div > div:nth-child(3) > div:nth-child(3){
-    background-color: aqua;
+    border: 1px solid red;
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
 }
 
+/* tragetting all the great grand child div's */
 .parent-div > div:nth-child(3) > div:nth-child(3) > div{
-    background-color: blue;
+    /* background-color: blue; */
+    border: 1px solid red;
+    height: 40px;
+    width: 30%;
+    margin: auto;
+    background-color: darkmagenta;
+    text-transform: uppercase;
+    color: white;
+}
+
+/*
+******************************----------------------****************************
+Media concept: "max-width : 500px" ka mtlb hai ki screen jab taak 0px se 500px mai hai usme css apply hoga 500 ke upar not applicable.
+                "min-width : 500px" ka mtlb hai ki 500px se end taak woh css applicable hoga 500px ki niche nai ho skta
+********************************************************************************
+This media screen will be applicable from 499px to 999px */
+
+@media screen and (min-width : 600px) and (max-width : 1100px) {
+
+    #screen{
+        height: 2000px;
+    }
+    .parent-div{
+        border: 1px solid black;
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .parent-div > div{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: violet;
+    }
+    
+    .parent-div > div:nth-child(2){
+        display: none;
+    }
+
+    .parent-div > div:nth-child(3){
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+    }
+    .parent-div > div:nth-child(3) > div{
+        width: 23%;
+    }
+
+}
+
+@media screen and (max-width : 599px) {
+
+    #screen{
+        height: 2000px;
+    }
+    .parent-div{
+        border: 1px solid black;
+        width: 90%;
+        margin: auto;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .parent-div > div{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: violet;
+    }
+    
+    .parent-div > div:nth-child(2){
+        display: none;
+    }
+
+    .parent-div > div:nth-child(3){
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+    }
+    .parent-div > div:nth-child(3) > div{
+        width: 23%;
+    }
+
+    .parent-div > div:nth-child(3) > div:nth-child(3){
+        display: flex;
+        flex-direction: column;
+    }
+    .parent-div > div:nth-child(3) > div:nth-child(3) > div{
+        width: 80%;
+        margin: auto;
+
+    }
 }
