@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;    
+    font-family: "Space Grotesk", sans-serif;
+}
+
+#screen{
+    border: 2px solid green;
+    width: 100%;
+    height: 1500px;
+    background-color: #000000;
+}
+
+.head{
+    width: 100%;
+    height: 90px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.w-97{
+    width: 97%;
+    margin: auto;
+}
+.nav-parent{
+    width: 97%;
+    height: 60px;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 15%;
+    /* border: 1px solid red; */
+    font-size: 16px;
+}
+
+.logo > :nth-child(2){
+    display: none;
+}
+
+.navbars{
+    width: 45%;
+}
+.navbars ul{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbars ul li{
+    list-style-type: none;
+}
+
+.navbars ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #cccccc;
+}
+
+.socials{
+    width: 10%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.bars{
+    width: 5%;
+    /* border: 1px solid red; */
+    display: none;
+}
+
+.body{
+    height: 1300px;
+    /* border: 1px solid red; */
+}
+
+.body-parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.body-image{
+    margin-top: 20px;
+    width: 100%;
+    height: 108px;
+    text-align: center;
+}
+
+.body-image img{
+    width: 108px;
+}
+
+.body-head{
+    width: 100%;
+    text-align: center;
+}
+.body-head > :nth-child(1){
+    /* max-width: 50%;
+    margin: auto; */
+    font-size: 70px;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.body-para{
+    width: 100%;
+    text-align: center;
+}
+
+.body-para > :nth-child(1){
+    max-width: 70%;
+    margin: auto;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.body-btn > :nth-child(1){
+    font-size: 16px;
+    color: black;
+    border-radius: 14px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width : 799px) {
+
+    .logo > :nth-child(2){
+        display: block;
+    }
+
+    .logo > :nth-child(1){
+        display: none;
+    }
+
+    .navbars{
+        display: none;
+    }
+
+    .socials{
+        display: none;
+    }
+
+    .bars{
+        display: block;
+    }
+}
+
+
