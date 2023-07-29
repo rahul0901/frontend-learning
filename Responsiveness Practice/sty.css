@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#screen {
+    width: 100%;
+    height: 600px;
+    border: 1px solid red;
+}
+
+.parent-div {
+    width: 90%;
+    margin: auto;
+    border: 1px solid red;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+.parent-div div {
+    width: 22%;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: crimson;
+}
+
+@media screen and (min-width : 500px) and (max-width : 799px) {
+
+    /* 
+    Using "flex-direction: column" we can make all div in vertical direction
+    .parent-div{
+        flex-direction: column;
+    }
+
+    .parent-div div{
+        margin: 20px 0px;
+    } */
+
+
+    /* here I have applied */
+
+    .parent-div {
+        background-color: darkseagreen;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        /* flex wrap parent ko apply krne se child element andr ke adjust hoti hai dusre line pe */
+    }
+
+    .parent-div div {
+        width: 40%;
+    }
+}
+
+
+@media screen and (max-width : 499px) {
+    #screen {
+        height: 100%;
+    }
+
+    .parent-div {
+        width: 100%;
+        background-color: rgb(214, 169, 101);
+        flex-wrap: wrap;
+    }
+
+    .parent-div div {
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+}
