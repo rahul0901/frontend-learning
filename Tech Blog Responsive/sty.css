@@ -9,7 +9,7 @@
 #screen{
     border: 2px solid green;
     width: 100%;
-    height: 1500px;
+    height: 2500px;
     background-color: #000000;
 }
 
@@ -132,20 +132,21 @@
     margin-bottom: 20px;
 }
 
-.body-btn > div > :nth-child(1){
-    font-size: 12px;
+.body-btn button{
+    font-size: 18px;
     background-color: #a4a2a2;
     color: black;
-    border-radius: 14px;
-    width: 100px;
-    padding: 6px 8px;
+    border-radius: 22px;
+    width: 160px;
+    height: 44px;
+    padding: 12px 26px;
     margin-bottom: 20px;
 }
 
 .popular-articles{
     width: 100%;
     height: 600px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .popular-parent{
@@ -153,26 +154,74 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .popular-one, .popular-two, .popular-three{
     width: 30%;
     height: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
-.popular-one > :nth-child(1){
+.popular-one > div{
+    font-size: 18px;
+}
+
+.popular-one > div:nth-child(1) > p{
+    margin-bottom: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.popular-one > div:nth-child(2) > h2{
+    margin-bottom: 20px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.popular-one > div:nth-child(3) > p{
+    margin-top: 128px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.popular-one > div:nth-child(4) > button{
+    margin-top: 48px;
+    font-size: 18px;
+    background-color: #a4a2a2;
+    color: black;
+    border-radius: 22px;
+    width: 160px;
+    height: 44px;
+    padding: 12px 26px;
+}
+
+.popular-two{
+    background-image: url('https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image6.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.popular-two img{
+    width: 220px;
+    height: 440px;
+}
+
+.popular-two-image{
+    position: absolute;
+    top: 8%;
+    left: 20%;
+}
+
+/* .popular-one > div:nth-child(3){
     font-size: 18px;
     font-family: 'DM Sans', sans-serif;
     color: red;
-}
-
-.popular-one > :nth-child(3){
-    font-size: 18px;
-    font-family: 'DM Sans', sans-serif;
-    color: red;
-}
+} */
 
 /* font-family: 'DM Sans', sans-serif; */
 
@@ -197,6 +246,33 @@
 
     .bars{
         display: block;
+    }
+}
+
+@media screen and (min-width : 499px) and (max-width : 899px) {
+
+    .popular-articles{
+        width: 100%;
+        height: 1200px;
+    }
+    .popular-parent{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+        height: 1200px;
+    }
+
+    .popular-one{
+        width: 100%;
+        height: 521px;
+        margin: auto;
+    }
+
+    .popular-two, .popular-three{
+        width: 46%;
+        height: 521px;
+        margin: auto;
     }
 }
 
