@@ -158,8 +158,12 @@
 }
 
 .main-para> :nth-child(1) {
-    max-width: 400px;
+    max-width: 600px;
     margin: auto;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #b6b6b6;
     /* border: 1px solid red; */
 }
 
@@ -170,7 +174,7 @@
 }
 
 .article-parent {
-    width: 90%;
+    width: 95%;
     margin: auto;
     /* height: 100%; */
     /* border: 1px solid red; */
@@ -183,13 +187,42 @@
 
 .article-left {
     width: 24%;
-    height: 500px;
+    height: 520px;
     /* border: 1px solid red; */
+}
+
+.article-left>div:nth-child(1)>p {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #b6b6b6;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.article-left>div:nth-child(2)>h2 {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    color: #ffffff;
+    letter-spacing: 2px;
+}
+
+.article-left>div:nth-child(3)>p {
+    margin-top: 80px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #b6b6b6;
+}
+
+.article-left>div:nth-child(4)>button {
+    margin-top: 40px;
 }
 
 .article-right {
     width: 68%;
-    height: 500px;
+    height: 520px;
     /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
@@ -199,18 +232,100 @@
     background-image: url('https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image6.jpg');
     width: 47%;
     height: 100%;
-    /* border: 1px solid white; */
-    background-size: contain;
+    border: 1px solid white;
+    /* ye bg img ko parent div ki full size mai lene ki liye niche ka code
+    likha hai  bg-size,position,repeat */
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.right-inside-one {
+    width: 80%;
+    height: 440px;
+    margin: auto;
+    border: 1px solid black;
+    background-color: #c6c6c6;
+    display: flex;
+    align-items: center;
+}
+
+.in-one {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 20%;
+    border: 1px solid black;
+}
+
+.in-one> :nth-child(1) {
+    height: 70%;
+    margin-bottom: 5%;
+    object-fit: cover;
+}
+
+.in-one> :nth-child(2) {
+    margin: 20px 0px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.in-one> :nth-child(3) {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .right-img-two {
     background-image: url('https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image6.jpg');
     width: 47%;
     height: 100%;
-    /* border: 1px solid white; */
-    background-size: contain;
+    border: 1px solid white;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.right-inside-two {
+    width: 80%;
+    height: 440px;
+    margin: auto;
+    border: 1px solid black;
+    background-color: #c6c6c6;
+    display: flex;
+    align-items: center;
+}
+
+.in-two {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 20%;
+    border: 1px solid black;
+}
+
+.in-two> :nth-child(1) {
+    height: 70%;
+    margin-bottom: 5%;
+    object-fit: cover;
+}
+
+.in-two> :nth-child(2) {
+    margin: 20px 0px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.in-two> :nth-child(3) {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 
@@ -248,39 +363,19 @@
 @media screen and (min-width:770px) and (max-width:990px) {
 
     .article-parent {
-        flex-wrap: nowrap;
-        flex-direction: column;
-    }
-
-    .article-left {
-        width: 100%;
-        height: 80%;
-        margin-bottom: 20px;
-    }
-
-    .article-right {
-        width: 100%;
-        height: 40%;
-        border: 2px solid whitesmoke;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .right-img-one {
-        width: 46%;
-        height: 100%;
+        width: 95%;
+        margin: auto;
         border: 1px solid white;
-        background-size: contain;
-        background-repeat: no-repeat;
+        flex-wrap: wrap;
     }
 
-    .right-img-two {
-        width: 46%;
-        height: 100%;
-        border: 1px solid white;
-        background-size: contain;
-        background-repeat: no-repeat;
+    .article-left{
+        width: 100%;
     }
+
+    .article-right{
+        width: 100%;
+    }
+
 
 }
