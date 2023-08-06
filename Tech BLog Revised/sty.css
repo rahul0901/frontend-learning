@@ -6,7 +6,7 @@
 
 #screen {
     width: 100%;
-    height: 2000px;
+    height: 3000px;
     border: 2px solid green;
     background-color: black;
 }
@@ -22,6 +22,9 @@
     /* border: 1px solid red; */
     display: flex;
     align-items: center;
+    /* position: sticky;
+    top: 0px;
+    left: 0px; */
 }
 
 .nav-parent {
@@ -105,10 +108,11 @@
 
 .main {
     width: 100%;
-    height: 450px;
+    height: 536px;
     /* border: 1px solid white; */
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .main-parent {
@@ -173,16 +177,27 @@
     /* border: 1px solid red; */
 }
 
+.main-btn>button {
+    color: #000000;
+    height: 44px;
+    padding: 12px 26px;
+    border-radius: 22px;
+    font-size: 16px;
+    font-family: "Space Grotesk", sans-serif;
+    outline: none;
+    border: none;
+}
+
 .article-parent {
     width: 95%;
     margin: auto;
     /* height: 100%; */
-    /* border: 1px solid red; */
+    /* border: 1px solid white; */
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
-
+    padding-top: 50px;
 }
 
 .article-left {
@@ -218,6 +233,14 @@
 
 .article-left>div:nth-child(4)>button {
     margin-top: 40px;
+    color: #000000;
+    height: 44px;
+    padding: 12px 26px;
+    border-radius: 22px;
+    font-size: 16px;
+    font-family: "Space Grotesk", sans-serif;
+    outline: none;
+    border: none;
 }
 
 .article-right {
@@ -232,7 +255,7 @@
     background-image: url('https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image6.jpg');
     width: 47%;
     height: 100%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     /* ye bg img ko parent div ki full size mai lene ki liye niche ka code
     likha hai  bg-size,position,repeat */
     background-size: cover;
@@ -246,10 +269,13 @@
     width: 80%;
     height: 440px;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: #c6c6c6;
-    display: flex;
-    align-items: center;
+    display: none;
+}
+
+.right-img-one:hover>.right-inside-one {
+    display: block;
 }
 
 .in-one {
@@ -257,7 +283,7 @@
     height: 80%;
     margin: auto;
     margin-top: 20%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .in-one> :nth-child(1) {
@@ -283,7 +309,7 @@
     background-image: url('https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image6.jpg');
     width: 47%;
     height: 100%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -295,10 +321,13 @@
     width: 80%;
     height: 440px;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: #c6c6c6;
-    display: flex;
-    align-items: center;
+    display: none;
+}
+
+.right-img-two:hover>.right-inside-two {
+    display: block;
 }
 
 .in-two {
@@ -306,7 +335,7 @@
     height: 80%;
     margin: auto;
     margin-top: 20%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .in-two> :nth-child(1) {
@@ -365,17 +394,131 @@
     .article-parent {
         width: 95%;
         margin: auto;
-        border: 1px solid white;
+        /* border: 1px solid white; */
         flex-wrap: wrap;
     }
 
-    .article-left{
+    .article-left {
         width: 100%;
+        height: 250px;
+        /* border: 1px solid white; */
     }
 
-    .article-right{
-        width: 100%;
+    /* .article-left>div:nth-child(1)>p {
+        margin-bottom: 8px;
+    } */
+
+    .article-left>div:nth-child(2)>h2 {
+        margin-bottom: 0px;
     }
 
+    .article-left>div:nth-child(3)>p {
+        margin-bottom: 48px;
+        margin-top: 0px;
+    }
+
+    .article-left>div:nth-child(4)>button {
+        margin-top: 0px;
+    }
+
+    .article-right {
+        width: 100%;
+        /* border: 1px solid white; */
+    }
+
+    .right-inside-one {
+        display: block;
+    }
+
+    .right-inside-two {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width : 769px) {
+
+
+    .article-parent {
+        width: 95%;
+        margin: auto;
+        /* border: 1px solid white; */
+        flex-wrap: wrap;
+    }
+
+    .article-left {
+        width: 100%;
+        height: 350px;
+        /* border: 1px solid white; */
+    }
+
+    /* .article-left>div:nth-child(1)>p {
+        margin-bottom: 8px;
+    } */
+
+    .article-left>div:nth-child(2)>h2 {
+        margin-bottom: 0px;
+    }
+
+    .article-left>div:nth-child(3)>p {
+        margin-bottom: 48px;
+        margin-top: 0px;
+    }
+
+    .article-left>div:nth-child(4)>button {
+        margin-top: 0px;
+    }
+
+    .article-right {
+        width: 100%;   
+        height: 1100px;    
+        flex-direction: column;
+        flex-wrap: nowrap;
+        border: 1px solid red;
+    }
+
+    .right-img-one {
+        width: 100%;
+        height: 516px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .right-inside-one{
+        display: block;
+        width: 95%;
+        margin: auto;
+        height: 480px;
+    }
+
+    .in-one{
+        /* border: 1px solid black; */
+        width: 90%;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    .right-img-two {
+        width: 100%;
+        height: 516px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .right-inside-two{
+        display: block;
+        width: 95%;
+        margin: auto;
+        height: 480px;
+    }
+
+    .in-two{
+        /* border: 1px solid black; */
+        width: 90%;
+        margin: auto;
+        margin-top: 5%;
+    }
 
 }
