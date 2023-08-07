@@ -192,7 +192,7 @@
     width: 95%;
     margin: auto;
     /* height: 100%; */
-    /* border: 1px solid white; */
+    border: 1px solid white;
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-between;
