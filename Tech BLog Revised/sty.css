@@ -357,7 +357,31 @@
     font-size: 18px;
 }
 
+.two-col-contents-parent{
+    width: 95%;
+    margin: auto;
+    border: 1px solid white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.two-col-left{
+    width: 60%;
+    height: 185px;
+    border: 1px solid red;
+    color: #ffffff;
+}
+
+.two-col-right{
+    width: 40%;
+    height: 185px;
+    border: 1px solid red;
+    color: #b5b5b5;
+}
+
+/* ************************************************************************* */
 
 @media screen and (min-width: 280px) and (max-width:991px) {
 
