@@ -490,6 +490,24 @@
         justify-content: space-around;
     }
 
+    .two-col-contents-parent{
+        width: 95%;
+        margin: auto;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .two-col-left{
+        width: 100%;
+        border: 1px solid white;
+    }
+
+    .two-col-right{
+        width: 100%;
+        border: 1px solid white;
+    }
+
 }
 
 @media screen and (min-width:770px) and (max-width:990px) {
