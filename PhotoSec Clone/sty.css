@@ -184,29 +184,29 @@
 
     .one{
         flex-direction: row;
-        /* height: 50%; */
+        height: 25%;
         width: 100%;
     }
 
     .up-one{
         width: 48%;
-        height: 48%;
+        height: 100%;
     }
 
     .down-one{
         width: 48%;
-        height: 48%;
+        height: 100%;
     }
 
-    /* .two{
-        width: 50%;
+    .two{
+        width: 48%;
         height: 50%;
     }
 
     .three{
-        width: 50%;
+        width: 48%;
         height: 50%;
-    } */
+    }
 
     /*
     .up-one{
