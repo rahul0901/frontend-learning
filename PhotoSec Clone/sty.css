@@ -128,7 +128,7 @@
 
 .one{
     width: 30%;
-    height: 80%;
+    height: 90%;
     border: 1px solid black;
     display: flex;
     /* align-items: center; */
@@ -150,13 +150,13 @@
 
 .two{
     width: 30%;
-    height: 80%;
+    height: 90%;
     border: 1px solid black;
 }
 
 .three{
     width: 30%;
-    height: 80%;
+    height: 90%;
     border: 1px solid black;
     display: flex;
     align-items: center;
@@ -184,7 +184,7 @@
 
     .one{
         flex-direction: row;
-        height: 25%;
+        height: 30%;
         width: 100%;
     }
 
@@ -200,12 +200,12 @@
 
     .two{
         width: 48%;
-        height: 50%;
+        height: 30%;
     }
 
     .three{
         width: 48%;
-        height: 50%;
+        height: 30%;
     }
 
     /*
