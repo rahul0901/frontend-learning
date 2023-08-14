@@ -480,88 +480,52 @@
     text-align: end;
 }
 
-.earbuds {
-    width: 90%;
+.earbuds-parent{
+    width: 88%;
+    height: 440px;
     margin: auto;
-    height: 400px;
+    border: 1px solid white;
     display: flex;
     justify-content: space-between;
-    border: 1px solid white;
-    color: white;
+    align-items: center;
 }
 
-.ear-one {
+.earbuds-one{
+    /* width: 323px; */
     width: 32%;
-    margin: auto;
-    height: 80%;
-    border: 1px solid red;
-}
-
-.ear-one-content {
-    width: 90%;
-    /* margin: auto; */
-    height: 100%;
-    border: 1px solid red;
-}
-
-.ear-one-content > img{
-    width: 80%;
-    height: 60%;
-}
-
-
-.ear-two {
-    width: 32%;
-    margin: auto;
-    height: 80%;
+    /* height: 430px; */
+    height: 90%;
     border: 1px solid white;
 }
 
-.ear-three {
-    width: 32%;
-    margin: auto;
-    height: 80%;
-    border: 1px solid white;
-}
-
-.read-news{
+.ear-one-img{
     width: 100%;
-    border: 1px solid white;
-    height: 400px;
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
-    color: white;
+    height: 80%;
 }
 
-.read-news-left{
-    width: 42%;
-    height: 90%;
-    border: 1px solid white;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
+.ear-one-title{
+    width: 100%;
+    height: 10%;
 }
 
-.read-news-left-content{
-    border: 1px solid white;
-    width: 70%;
-    height: 60%;
-    margin: auto;
+.ear-one-product{
+    width: 100%;
+    height: 10%;
 }
 
-.read-news-left-content> h2,p{
-    margin-bottom: 20px;
-}
-
-
-.read-news-right{
-    width: 58%;
-    height: 90%;
+.earbuds-two{
+    width: 323px;
+    height: 430px;
     border: 1px solid white;
 }
+
+.earbuds-three{
+    width: 323px;
+    height: 430px;
+    border: 1px solid white;
+}
+
+
 
 /* ************************************************************************* */
 
