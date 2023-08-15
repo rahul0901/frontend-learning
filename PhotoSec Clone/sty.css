@@ -18,13 +18,14 @@
     top: 0px;
     left: 0px;
     background-color: transparent;
-    z-index: 100;
 }
 
 .nav {
     width: 96%;
     height: 49px;
     margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
     display: flex;
 }
 
@@ -66,7 +67,7 @@
 .nav-button>button {
     font-weight: 400;
     font-style: normal;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 23px;
     text-transform: uppercase;
     padding: 8px 25px;
@@ -88,7 +89,8 @@
     /* border: 1px solid black; */
     display: flex;
     align-items: center;
-    margin-top: -49px;
+    margin-top: -79px;
+    background-color: #eeeeee;
 }
 
 .bc-1-left {
