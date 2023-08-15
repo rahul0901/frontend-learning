@@ -6,7 +6,6 @@
 
 #screen {
     width: 100%;
-    height: 100%;
     border: 2px solid green;
     background-color: black;
 }
@@ -485,6 +484,8 @@
     height: 440px;
     margin: auto;
     border: 1px solid white;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -562,20 +563,40 @@
     height: 540px;
     border: 1px solid white;
     display: flex;
+    margin:20px 0px 40px;
 }
 
 .content-one-left{
     width: 43%;
     height: 100%;
+    border: 1px solid white;
     display: flex;
     align-items: center;
-    border: 1px solid white;
 }
 
-.content-one-left > div{
-    width: 50%;
+.content-one-left-parent{
+    width: 60%;
+    /* height: 80%; */
     margin: auto;
-    border: 1px solid white;
+    border: 1px solid red;
+}
+
+.content-one-left-parent > :nth-child(1){
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+
+.content-one-left-parent > :nth-child(2){
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #b6b6b6;
+    margin-top: 50px;
 }
 
 .content-one-right{
@@ -584,7 +605,39 @@
     border: 1px solid white;
     background-image: url('https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image11.jpg');
     background-size: cover;
+    display: flex;
+    align-items: center;
 }
+
+.easy-to-use{
+    background-image: url('https://mobirise.com/extensions/boldm5/tech-blog/assets/images/background1.jpg');
+    width: 100%;
+    height: 680px;
+    border: 1px solid white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
+
+.easy-to-use-content{
+    width: 50%;
+    height: 80%;
+    border: 1px solid red;
+    text-align: left;
+    padding: 0px 40px;
+    color: white;
+    background-image: none;
+    opacity: none;
+}
+
+.easy-to-use-content > :nth-child(1){
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+
 
 
 

@@ -1,0 +1,1366 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: "Space Grotesk", sans-serif;
+    transition: 0.3s;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.nav {
+    /* border: 1px solid white; */
+    width: 96%;
+    height: 110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    /* border: 1px solid grey; */
+    width: 10%;
+    padding: 46px 0px;
+    font-weight: bold;
+}
+
+.nav-logo>p:nth-child(2) {
+    display: none;
+}
+
+.nav-content {
+    /* border: 1px solid yellow; */
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    padding: 47px 0px;
+    transition: 0.3s;
+}
+
+.nav-content>p {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.nav-content>p:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.nav-icon>div:nth-child(2) {
+    display: none;
+}
+
+.nav-icon {
+    /* border: 1px solid yellowgreen; */
+    width: 10%;
+    padding: 45px 0px;
+}
+
+.nav-icon-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-icon-1 div {
+    cursor: pointer;
+}
+
+.nav-icon-1 :hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#body-content-1 {
+    /* border: 1px solid white; */
+    text-align: center;
+}
+
+.bc1-logo img {
+    height: 108px;
+    margin-top: 110px;
+    margin-bottom: 30px;
+}
+
+.bc1-title h1 {
+    font-size: 72px;
+    font-weight: normal;
+}
+
+.bc1-title p {
+    font-size: 17px;
+    color: rgb(182, 182, 182);
+    line-height: 25px;
+    margin-top: 16px;
+    margin-bottom: 60px;
+}
+
+.body-button button {
+    background-color: rgb(164, 162, 162);
+    color: black;
+    padding: 12px 30px 12px 30px;
+    border: none;
+    font-size: 16px;
+    border-radius: 22px;
+    letter-spacing: 0.5px;
+    background-image: linear-gradient(to right, rgb(164, 162, 162), white);
+    cursor: pointer;
+}
+
+#body-content-2 {
+    /* border: 1px solid white; */
+    width: 91%;
+    height: 520px;
+    margin: auto;
+    margin-top: 185px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bc2-text {
+    /* border: 1px solid yellow; */
+    width: 26%;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bc2-text-t p {
+    color: rgb(182, 182, 182);
+    font-size: 19px;
+}
+
+.bc2-text-t h4 {
+    margin-top: 10px;
+    font-size: 41px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+
+.bc2-text-b>p {
+    font-size: 18px;
+    color: rgb(182, 182, 182);
+    line-height: 25px;
+    align-items: flex-end;
+    font-family: "DM Sans", sans-serif;
+    /* margin-bottom: 100px; */
+}
+
+.bc2-text-b button {
+    margin: 52px 0px 12px 0px;
+    background-image: linear-gradient(to right, rgb(164, 162, 162), white);
+}
+
+.bc2-img {
+    /* border: 1px solid orange; */
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bc2-img-box {
+    width: 47%;
+    height: 520px;
+    background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image6.jpg);
+    background-size: cover;
+}
+
+.bc2-img-innerbox {
+    opacity: 0;
+    width: 81%;
+    height: 380px;
+    margin: auto;
+    margin-top: 38px;
+    margin-bottom: 38px;
+    background-image: linear-gradient(to right, rgb(164, 162, 162), white);
+    padding-top: 64px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.bc2-img-innerbox:hover {
+    opacity: 1;
+}
+
+.bc2-img-innerbox-img1 {
+    background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 81%;
+    height: 272px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bc2-img-innerbox-img1 button {
+    color: black;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, rgb(164, 162, 162), white);
+    padding: 12px 26px 12px 26px;
+}
+
+.bc2-img-innerbox-img2 {
+    background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image9.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 81%;
+    height: 272px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bc2-img-innerbox-img2 button {
+    color: black;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, rgb(164, 162, 162), white);
+    padding: 12px 26px 12px 26px;
+}
+
+.bc2-img-innerbox-text {
+    margin-top: 25px;
+}
+
+.bc2-img-innerbox-text>p {
+    padding: 0px 28px;
+    color: black;
+    line-height: 30px;
+}
+
+.bc2-img-innerbox-text>p:nth-child(1) {
+    font-size: 18px;
+}
+
+#body-content-3 {
+    /* border: 1px solid white; */
+    width: 83%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 160px;
+}
+
+.bc3-text1 {
+    font-size: 40px;
+    width: 55%;
+    letter-spacing: 1px;
+}
+
+.bc3-text2 {
+    color: rgb(182, 182, 182);
+    font-size: 18px;
+    width: 35%;
+    margin-right: 10px;
+    line-height: 25px;
+}
+
+.vertical-line {
+    border-left: 1px solid rgb(53, 53, 53);
+    height: 160px;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.horizontal-line {
+    display: none;
+}
+
+#body-content-4 {
+    /* border: 1px solid white; */
+    width: 91%;
+    margin: auto;
+    display: flex;
+    margin-top: 160px;
+}
+
+.bc4-text-box {
+    /* border: 1px solid white; */
+    width: 20%;
+    height: 260px;
+}
+
+.bc4-text>p:nth-child(1) {
+    font-size: 34px;
+    letter-spacing: 1px;
+}
+
+.bc4-text>p:nth-child(2) {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 26px;
+    color: rgb(182, 182, 182);
+}
+
+.bc4-img {
+    /* border: 1px solid white; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bc4-img>div {
+    /* border: 1px solid white; */
+    width: 18.4%;
+    height: 260px;
+}
+
+.bc4-img1 {
+    background: black;
+    background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image4.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bc4-img1 button {
+    opacity: 0;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, rgb(164, 162, 162), white);
+    padding: 12px 26px 12px 26px;
+    transition: 0.5s;
+}
+
+.bc4-img1 button:hover {
+    opacity: 1;
+}
+
+.bc4-img2 {
+    background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image5.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bc4-img2 button {
+    opacity: 0;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, rgb(164, 162, 162), white);
+    padding: 12px 26px 12px 26px;
+    transition: 0.5s;
+}
+
+.bc4-img2 button:hover {
+    opacity: 1;
+}
+
+.bc4-img3 {
+    background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image8.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bc4-img3 button {
+    opacity: 0;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, rgb(164, 162, 162), white);
+    padding: 12px 26px 12px 26px;
+    transition: 0.5s;
+}
+
+.bc4-img3 button:hover {
+    opacity: 1;
+}
+
+.bc4-img4 {
+    background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image12.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bc4-img4 button {
+    opacity: 0;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, rgb(164, 162, 162), white);
+    padding: 12px 26px 12px 26px;
+    transition: 0.5s;
+}
+
+.bc4-img4 button:hover {
+    opacity: 1;
+}
+
+.bc4-img5 {
+    background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image15.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bc4-img5 button {
+    opacity: 0;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, rgb(164, 162, 162), white);
+    padding: 12px 26px 12px 26px;
+    transition: 0.5s;
+}
+
+.bc4-img5 button:hover {
+    opacity: 1;
+}
+
+#body-content-5 {
+    margin-top: 160px;
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+
+.bc5-text1 {
+    border-top: 1px solid rgb(40, 40, 40);
+    padding: 15px 2px;
+}
+
+.bc5-text2 {
+    border-top: 1px solid rgb(40, 40, 40);
+    border-bottom: 1px solid rgb(40, 40, 40);
+    padding: 15px 8px;
+    text-align: right;
+}
+
+#body-content-6 {
+    /* border: 1px solid white; */
+    width: 82%;
+    margin: auto;
+    margin-top: 160px;
+}
+
+.bc6-box-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bc6-box {
+    /* border: 1px solid yellow; */
+    width: 31.5%;
+    height: 430px;
+}
+
+.bc6-box img:hover {
+    background-image: linear-gradient(black, white);
+}
+
+.bc6-box img {
+    width: 100%;
+    height: 346px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.bc6-box img:hover {
+    opacity: 0.8;
+}
+
+.bc6-box>p:nth-child(2) {
+    font-family: "Space Grotesk", sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.bc6-box>p:nth-child(3) {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 34px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+#body-content-7 {
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 540px;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.bc7-text {
+    /* border: 1px solid yellow; */
+    width: 42%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bc7-text-box {
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 0px 130px 0px 110px;
+}
+
+.bc7-text-box>p:nth-child(1) {
+    font-size: 42px;
+    margin-bottom: 45px;
+    line-height: 48px;
+}
+
+.bc7-text-box>p:nth-child(2) {
+    color: rgb(182, 182, 182);
+    font-size: 19px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 24px;
+}
+
+.bc7-img {
+    /* border: 1px solid green;d */
+    width: 58%;
+    background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image11.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bc7-img button {
+    color: black;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, rgb(164, 162, 162), white);
+    padding: 12px 26px 12px 26px;
+}
+
+#body-content-8 {
+    /* border: 1px solid white; */
+    margin-top: 80px;
+    height: 670px;
+    background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/background1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.bc8-transparent {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+
+.bc8-text {
+    /* border: 1px solid yellow; */
+    width: 500px;
+    padding: 80px 0px 0px 60px;
+}
+
+.bc8-text>p:nth-child(1) {
+    font-size: 42px;
+    line-height: 48px;
+}
+
+.bc8-text>p:nth-child(2) {
+    font-size: 17.5px;
+    color: rgb(182, 182, 182);
+    margin-top: 20px;
+    line-height: 26px;
+}
+
+#body-content-9 {
+    /* border: 1px solid white; */
+    display: flex;
+    width: 82%;
+    height: 960px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.bc9-text {
+    /* border: 1px solid red; */
+    flex: 1;
+}
+
+.bc9-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bc9-text-words-1 a {
+    text-decoration: none;
+    font-size: 35px;
+    display: block;
+    padding: 42px 0px;
+}
+
+.bc9-text-words-2 a {
+    border-top: 1px solid rgba(200, 200, 200, 0.2);
+    width: 85%;
+    text-decoration: none;
+    font-size: 35px;
+    display: block;
+    padding: 42px 0px;
+}
+
+.bc9-img {
+    /* border: 1px solid red; */
+    flex: 1;
+    padding-left: 10px;
+}
+
+.bc9-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#body-content-10 {
+    /* border: 1px solid white; */
+    margin-top: 160px;
+    height: 630px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bc10-img {
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 100%
+}
+
+.bc10-img-bg {
+    width: 98%;
+    height: 100%;
+    background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image13.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bc10-img-layout {
+    background-color: black;
+    width: 65%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bc10-img-layout-pad {
+    padding: 80px;
+}
+
+.bc10-img-text p {
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.bc10-img-text>p:nth-child(1) {
+    color: rgb(182, 182, 182);
+    line-height: 26px;
+    letter-spacing: 0.3px;
+}
+
+.bc10-img-text>p:nth-child(2) {
+    font-style: italic;
+    margin-top: 24px;
+}
+
+.bc10-img-text>p:nth-child(3) {
+    color: rgb(182, 182, 182);
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.bc10-text {
+    /* border: 1px solid green; */
+    width: 50%;
+    height: 100%
+}
+
+.bc10-text-pad {
+    padding: 32px 130px 42px 130px;
+    height: 555px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bc10-text-500 {
+    font-size: 70px;
+}
+
+.bc10-text-text {
+    font-size: 34px;
+}
+
+.bc10-text-para {
+    font-size: 18px;
+    line-height: 26px;
+    color: rgb(182, 182, 182);
+}
+
+.bc10-text button {
+    color: rgb(15, 15, 15);
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, rgb(164, 162, 162), white);
+    padding: 12px 26px 12px 26px;
+    margin-top: 50px;
+}
+
+#body-content-11 {
+    /* border: 1px solid white; */
+    margin-top: 160px;
+    width: 100%;
+    height: 520px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bc11-text {
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.bc11-text-box-1 {
+    /* border: 1px solid white; */
+    margin: 0px 174px 0px 60px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bc11-text-box-1>div:hover {
+    opacity: 0.5;
+}
+
+.bc11-text-box-2 {
+    /* border: 1px solid white; */
+    margin: 0px 174px 0px 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bc11-text-box-2>div:hover {
+    opacity: 0.5;
+}
+
+.bc11-text-num {
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.bc11-text-num p {
+    color: rgb(182, 182, 182);
+    font-family: "DM Sans", sans-serif;
+}
+
+.bc11-text-para {
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 26px;
+    letter-spacing: -0.3px;
+}
+
+.bc11-text-icon {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.bc11-img {
+    /* border: 1px solid blue; */
+    width: 50%;
+}
+
+.bc11-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#footer {
+    /* border: 1px solid white; */
+    margin-top: 80px;
+    width: 100%;
+    height: 160px;
+    padding: 80px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-content {
+    /* border: 1px solid pink; */
+    width: 91%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-content>div>p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.footer-content-1 {
+    /* border: 1px solid red; */
+    width: 23%;
+}
+
+.fc1-img img {
+    width: 48px;
+    height: 48px;
+}
+
+.fc1-text1 {
+    color: rgb(182, 182, 182);
+    margin-top: 15px;
+    letter-spacing: 0.5px;
+}
+
+.fc1-text2 {
+    margin-top: 20px;
+    letter-spacing: -0.5px;
+    line-height: 26px;
+}
+
+.footer-content-2 {
+    /* border: 1px solid green; */
+    width: 23%;
+}
+
+.fc2-text1 {
+    line-height: 26px;
+    color: rgb(182, 182, 182);
+
+}
+
+.fc2-text2 {
+    margin-top: 12px;
+    color: rgb(182, 182, 182);
+}
+
+.fc2-text3 {
+    margin-top: 12px;
+    color: rgb(182, 182, 182);
+}
+
+.footer-content-2>p:hover {
+    color: white;
+}
+
+.footer-content-3 {
+    /* border: 1px solid blue; */
+    width: 23%;
+}
+
+.fc3-text1 {
+    color: rgb(182, 182, 182);
+}
+
+.fc3-text2 {
+    color: rgb(182, 182, 182);
+    margin-top: 15px;
+}
+
+.fc3-text3 {
+    color: rgb(182, 182, 182);
+    margin-top: 15px;
+}
+
+.fc3-text4 {
+    color: rgb(182, 182, 182);
+    margin-top: 15px;
+}
+
+.footer-content-3>p:hover {
+    color: white;
+}
+
+.footer-content-4 {
+    /* border: 1px solid yellow; */
+    width: 23%;
+}
+
+.fc4-text1 {
+    color: rgb(182, 182, 182);
+    line-height: 26px;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+
+
+@media screen and (max-width:990px) {
+    .nav-logo>p:nth-child(1) {
+        display: none;
+    }
+
+    .nav-content {
+        display: none;
+    }
+
+    .nav-icon>div:nth-child(1) {
+        display: none;
+    }
+
+    .nav-logo>p:nth-child(2) {
+        display: block;
+        text-align: center;
+    }
+
+    .nav-icon>div:nth-child(2) {
+        display: block;
+        text-align: center;
+    }
+
+
+    #body-content-2 {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .bc2-text {
+        width: 100%;
+    }
+
+    .bc2-text-b>p {
+        letter-spacing: 0.5px;
+        padding-right: 20px;
+    }
+
+    .bc2-img {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+
+    .bc2-img-box {
+        height: 516px;
+        width: 48.6%;
+        background-position: center;
+    }
+
+    .bc2-img-innerbox {
+        opacity: 1;
+        width: 92%;
+        height: 411px;
+        margin: 20px 18px;
+    }
+
+    .bc2-img-innerbox-img1 {
+        width: 86%;
+    }
+
+    .bc2-img-innerbox-img2 {
+        width: 86%;
+    }
+
+    .bc2-img-innerbox-text {
+        margin-top: 55px;
+    }
+
+    .bc2-img-innerbox-text>p:nth-child(2) {
+        margin-top: 5px;
+    }
+
+    #body-content-3 {
+        margin-top: 500px;
+        width: 70%;
+        flex-direction: column;
+    }
+
+    .bc3-text1 {
+        width: 100%;
+        font-size: 41px;
+        line-height: 48px;
+    }
+
+    .bc3-text2 {
+        width: 100%;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+
+    .horizontal-line {
+        display: block;
+        border-top: 1px solid rgb(53, 53, 53);
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    #body-content-4 {
+        width: 97.5%;
+        flex-direction: column;
+    }
+
+    .bc4-text-box {
+        width: 100%;
+        height: 150px;
+    }
+
+    .bc4-img {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .bc4-img>div {
+        /* border: 1px solid white; */
+        width: 48%;
+        height: 260px;
+        margin: 9px 9px 30px 9px;
+    }
+
+    #body-content-5>div {
+        font-size: 56px;
+    }
+
+    #body-content-6 {
+        width: 100%;
+    }
+
+    .bc6-box-layout {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .bc6-box-layout div {
+        width: 323px;
+        margin: 12px 12px 90px 12px;
+    }
+
+    #body-content-7 {
+        flex-direction: column;
+        height: 720px;
+        margin-top: 170px;
+    }
+
+    .bc7-text {
+        width: 100%;
+    }
+
+    .bc7-text-box {
+        padding: 0px 100px;
+    }
+
+    .bc7-text-box>p:nth-child(2) {
+        margin-top: 50px;
+    }
+
+    .bc7-img {
+        /* border: 1px solid white; */
+        width: 100%;
+        height: 400px;
+        margin-top: 100px;
+    }
+
+    #body-content-8 {
+        height: 570px;
+    }
+
+    .bc8-text {
+        width: 95%;
+        padding: 80px 0px 0px 30px;
+    }
+
+    .bc8-text>p:nth-child(1) {
+        font-size: 42px;
+    }
+
+    #body-content-9 {
+        width: 68%;
+        flex-direction: column;
+    }
+
+    .bc9-text-words-1 a {
+        padding: 32px 0px;
+    }
+
+    .bc9-text-words-2 a {
+        padding: 32px 0px;
+    }
+
+    .bc9-img {
+        padding-left: 0px;
+    }
+
+    .bc9-img img {
+        margin-top: 20px;
+        height: 400px;
+    }
+
+    #body-content-10 {
+        flex-direction: column;
+        height: 700px;
+    }
+
+    .bc10-img {
+        width: 100%;
+        height: 319px;
+    }
+
+    .bc10-img-bg {
+        width: 100%;
+    }
+
+    .bc10-img-layout {
+        width: 93%;
+        height: 250px;
+        margin: 40px 0px;
+    }
+
+    .bc10-img-layout-pad {
+        padding: 30px;
+    }
+
+    .bc10-text {
+        width: 100%;
+    }
+
+    .bc10-text-pad {
+        padding: 32px 25px 0px 25px;
+        height: 0px;
+    }
+
+    .bc10-text-500 {
+        font-size: 56px;
+    }
+
+    .bc10-text-text {
+        margin-top: 5px;
+    }
+
+    .bc10-text-box2 {
+        margin-top: 28px;
+    }
+
+    .bc10-text-para {
+        letter-spacing: -0.3px;
+    }
+
+    .bc10-text button {
+        margin-top: 40px;
+    }
+
+    #body-content-11 {
+        flex-direction: column-reverse;
+        margin-top: 100px;
+        height: 750px;
+        justify-content: start;
+    }
+
+    .bc11-img {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 80px;
+    }
+
+    .bc11-text {
+        width: 95%;
+        margin: auto;
+    }
+
+    .bc11-text-box-1 {
+        width: 100%;
+        justify-content: space-between;
+        margin: 15px 0px;
+    }
+
+    .bc11-text-box-2 {
+        width: 100%;
+        justify-content: space-between;
+        margin: 15px 0px;
+    }
+
+    #footer-content {
+        padding: 50px 25px;
+        width: 100%;
+        height: 400px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #footer-content>div {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 765px) {
+    #body-content-2 {
+        width: 93%;
+        height: 1500px;
+    }
+
+    .bc2-text-b>p {
+        letter-spacing: 0.5px;
+        padding-right: 15px;
+    }
+
+    .bc2-img {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .bc2-img-box {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .bc2-img-innerbox {
+        width: 95%;
+        padding-top: 20px;
+        height: 456px;
+    }
+
+    .bc2-img-innerbox-img1 {
+        width: 94%;
+    }
+
+    .bc2-img-innerbox-text {
+        margin-top: 100px;
+    }
+
+    .bc2-img-innerbox-text>p {
+        padding: 0px 20px;
+    }
+
+    #body-content-3 {
+        margin-top: 200px;
+        width: 65%;
+    }
+
+    .bc3-text1 br {
+        display: none;
+    }
+
+    .bc3-text1 {
+        line-height: 52px;
+    }
+
+    .bc3-text2 {
+        letter-spacing: -0.2px;
+    }
+
+    #body-content-4 {
+        width: 94%;
+    }
+
+    .bc4-text>p:nth-child(2) {
+        margin-top: 18px;
+    }
+
+    .bc4-img>div {
+        width: 100%;
+        margin: 0px 0px 40px 0px;
+    }
+
+    #body-content-5 {
+        margin-top: 150px;
+    }
+
+    #body-content-5>div {
+        font-size: 70px;
+    }
+
+    .bc6-box-layout {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bc6-box-layout div {
+        width: 65.5%;
+        margin: 0px 0px 90px 0px;
+    }
+
+    #body-content-7 {
+        margin-top: 175px;
+    }
+
+    .bc7-text {
+        width: 100%;
+    }
+
+    .bc7-text-box {
+        padding: 0px 25px;
+    }
+
+    .bc8-text {
+        width: 95%;
+        padding: 80px 0px 0px 28px;
+    }
+
+    .bc9-text-words-1 a {
+        padding: 16px 0px;
+    }
+
+    .bc9-text-words-2 a {
+        padding: 16px 0px;
+    }
+
+    #footer-content {
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin-bottom: 100px;
+    }
+
+    #footer-content>div {
+        margin-top: 50px;
+    }
+}
