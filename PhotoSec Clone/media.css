@@ -1,0 +1,34 @@
+@media screen and (max-width : 1120px) {
+    .bc-1-left> :nth-child(1){
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+    }
+}
+
+@media screen and (min-width : 768px) {
+    .bc-1-left{
+        width: 41%;
+    }
+}
+
+@media screen and (max-width : 766px) {
+    .nav-icon{
+        color: white;
+    }
+
+    .nav-logo{
+        color: white;
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bc-1-left{
+        display: none;
+    }
+
+    .bc-1-right{
+        width: 100%;
+    }
+}
