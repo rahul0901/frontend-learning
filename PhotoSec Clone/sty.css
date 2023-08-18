@@ -27,6 +27,7 @@
     margin-top: 15px;
     margin-bottom: 15px;
     display: flex;
+    /* border: 1px solid red; */
 }
 
 .nav-icon {
@@ -38,7 +39,7 @@
 }
 
 .nav-logo {
-    width: 20%;
+    width: 70%;
     height: 100%;
     margin-left: 4%;
     display: flex;
@@ -55,7 +56,7 @@
 }
 
 .nav-button {
-    width: 30%;
+    width: 34%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -228,12 +229,13 @@
 }
 
 #body-content-3 {
-    width: 85%;
-    /* max-width: 1200px; */
+    width: 100%;
     margin: auto;
-    border: 1px solid black;
+    /* border: 1px solid red; */
     padding-top: 90px;
     padding-bottom: 90px;
+    margin-top: 40px;
+    background-color: #e4e4e4;
 }
 
 .bc-3-title {
@@ -248,62 +250,78 @@
     font-size: 32px;
     line-height: 38px;
     color: #212529;
+    text-transform: uppercase;
 }
 
 .bc-3-box {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     border: 1px solid black;
+    max-width: 1140px;
+    height: 650px;
+    margin: auto;
+    /* background-color: #e4e4e4; */
 }
 
 .bc-3-box-1 {
-    width: 28%;
-    /* width: 367px; */
+    width: 31%;
+    /* width: 347px; */
     height: 650px;
     border: 1px solid black;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     flex-wrap: wrap;
 }
 
-.bc-3-box-1-up {
-    width: 100%;
+/* .bc-3-box-1-up {
+    width: 347px;
     height: 280px;
-    border: 1px solid black;
-}
+    border: 1px solid red;
+} */
 
-.bc-3-box-1-down {
-    width: 100%;
-    height: 330px;
-    border: 1px solid black;
-}
+/* .bc-3-box-1-up:hover img{
+    color: #a34318;
+    transition: all 0.3s;
+    cursor: pointer;
+} */
+
+/* .bc-3-box-1-down {
+    width: 347px;
+    height: 328px;
+    border: 1px solid red;
+} */
 
 .bc-3-box-2 {
-    width: 28%;
+    width: 31%;
     /* width: 367px; */
-    height: 650px;
+    height: 634px;
     border: 1px solid black;
+}
+
+.bc-3-box-2 img{
+    max-width: 100%;
+    object-fit: cover;
 }
 
 .bc-3-box-3 {
-    width: 40%;
+    width: 34%;
     /* width: 405px; */
     height: 650px;
     border: 1px solid black;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     flex-wrap: wrap;
 }
 
-.bc-3-box-3-up {
-    width: 100%;
+/* .bc-3-box-3-up {
+    width: 385px;
     height: 304px;
-    border: 1px solid black;
+    border: 1px solid red;
 }
 
 .bc-3-box-3-down {
-    width: 100%;
+    width: 385px;
     height: 304px;
-    border: 1px solid black;
-}
+    border: 1px solid red;
+} */
