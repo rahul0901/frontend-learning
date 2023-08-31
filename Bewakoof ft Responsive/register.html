@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="screen">
+        <form action="#" onsubmit="register(event)">
+            <label for="name">Name: </label> <br>
+            <input type="text" id="name"> <br>
+            <label for="email">Email: </label> <br>
+            <input type="email" id="email"> <br>
+            <label for="pass">Password: </label> <br>
+            <input type="password" id="pass"> <br><br>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+
+    <script>
+        function register(event) {
+            event.preventDefault();
+            const userName = document.getElementById('name').value;
+            const userEmail = document.getElementById('email').value;
+            const userPass = document.getElementById('pass').value;
+
+            // console.log(userName, userEmail, userPass)
+
+            if (userName && userEmail && userPass) {
+                // console.log(userName, userEmail, userPass)
+                const userObject = { name: userName, email: userEmail, pass: userPass }
+                // console.log(userObject)
+
+                var usersArray = JSON.parse(localStorage.getItem("key")) || [];
+                for (var i = 0; i < usersArray.length; i++) {
+                    // console.log(usersArray[i], `user @ index ${i}`)
+                    if (usersArray[i].email === userEmail) {
+                        return alert('these email is already used')
+                    }
+                }
+                usersArray.push(userObject)
+
+                localStorage.setItem("key", JSON.stringify(usersArray))
+                console.log(usersArray)
+                alert('Register Successfull')
+                document.getElementById('name').value = '';
+                document.getElementById('email').value = '';
+                document.getElementById('pass').value = '';
+                window.location.href = "./index.html";
+
+            } else {
+                alert('Please fill all fields!')
+            }
+
+        }
+    </script>
+</body>
+
+</html>

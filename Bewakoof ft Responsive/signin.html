@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="#" onsubmit="login(event)">
+        <label for="name">Name: </label> <br>
+        <input type="text" id="name"> <br>
+        <label for="email">Email: </label> <br>
+        <input type="email" id="email"> <br>
+        <input type="submit" value="Login">
+    </form>
+
+    <script>
+        function login(event){
+            event.preventDefault();
+            const userName = document.getElementById('name').value;
+            const userEmail = document.getElementById('email').value;
+
+            if(userName && userEmail){
+                // const userObject = { name: userName, email: userEmail}
+                // console.log(userObject)
+
+                var array = JSON.parse(localStorage.getItem("key"))
+                // console.log(key)
+                // for(var i = 0; i< usersArray.length; i++){
+                //     // console.log(usersArray[i])
+                //     if(userEmail === usersArray[i].email){
+                //         return alert("successfully logged in!")
+                //         window.location.href = "./index.html";
+                //     }
+                //     else{
+                //         return alert('username or email is incorrect!')
+                //     }
+                // }
+                // usersArray.push(userObject)
+
+                // localStorage.setItem("users", JSON.stringify(usersArray))
+                // alert('login successful!')
+                // document.getElementById('name').value = '';
+                // document.getElementById('name').value = '';
+            }else{
+                alert('please login first!')
+            }
+        }
+    </script>
+</body>
+
+</html>
