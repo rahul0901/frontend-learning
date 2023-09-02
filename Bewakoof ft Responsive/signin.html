@@ -26,12 +26,17 @@
                 const userObject = { name: userName, email: userEmail }
                 // console.log(userObject)
 
-                var array = JSON.parse(localStorage.getItem("user")) || [];
+                var array = JSON.parse(localStorage.getItem("key"));
 
                 for (var i = 0; i < array.length; i++) {
                     if (array[i].name === userName && array[i].email === userEmail) {
-                        alert('login successful!')
+                        return alert('login successful!')
                         window.location.href = "./index.html";
+                        document.getElementById('name').value = '';
+                        document.getElementById('email').value = '';
+                    }
+                    else{
+                        alert('incorrect data')
                     }
                 }
 
@@ -48,7 +53,7 @@
                 // }
                 array.push(userObject)
 
-                localStorage.setItem("users", JSON.stringify(array))
+                localStorage.setItem("key", JSON.stringify(array))
                 // alert('login successful!')
                 // document.getElementById('name').value = '';
                 // document.getElementById('name').value = '';
