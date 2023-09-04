@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #screen{
+    border: 1px solid green;
+} */
+
+.w-92{
+    width: 92%;
+    margin: auto;
+}
+
+.head{
+    /* border: 1px solid red; */
+    height: 104px;
+    width: 100%;
+    /* background-color: #222539; */
+    color: white;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+.up{
+    /* border: 1px solid green; */
+    height: 64px;
+    background-color: #333545;
+}
+
+.up-w-92{
+    height: 100%;
+    width: 92%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.up-left{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 690px;
+}
+
+.left-image{
+    width: 115px;
+}
+
+.left-content{
+    width: 550px;
+    background: white;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    border-radius: 4px;
+    color: #9f9f9f;
+}
+
+.icon{
+    margin: 0px 10px;
+    color: #9f9f9f;
+    cursor: pointer;
+}
+
+.input input{
+    width: 400px;
+    border: none;
+    outline: none;
+}
+
+
+.up-right{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 210px;
+}
+
+.location{
+    width: 66px;
+}
+
+.location select{
+    /* width: 100%; */
+    border: none;
+    outline: none;
+    background-color: #333545;
+    color: #c7cac3;
+}
+
+.sign{
+    width: 67px;
+}
+
+.sign button{
+    background-color: #f84464;
+    color: white;
+    height: 23px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+.down{
+    /* border: 1px solid green; */
+    height: 40px;
+    background-color: #222539;
+}
+
+.down-w-92{
+    height: 100%;
+    width: 92%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.down-left ul{
+    display: flex;
+}
+
+.down-left ul li{
+    list-style: none;
+}
+
+.down-left ul li a{
+    text-decoration: none;
+    color: #cccccc;
+    margin-right: 18px;
+    font-size: 14px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.down-right ul{
+    display: flex;
+}
+
+.down-right ul li{
+    list-style: none;
+}
+
+.down-right ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 8px;
+    font-size: 12px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.body-content-1{
+    background-color: #333545;
+    border: 1px solid white;
+    height: 82px;
+    padding: 30px 20px 15px 20px;
+}
+
+.bc-2-movie-info{
+    display: flex;
+    
+}

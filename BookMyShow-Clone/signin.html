@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book My Show</title>
-    <link rel="stylesheet" href="sty.css">
+    <link rel="stylesheet" href="stylee.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -41,9 +41,26 @@
                         </div>
 
                         <div class="sign">
-                            <button>Sign In</button>
+                            <button onclick="openForm()">Sign In</button>
                         </div>
 
+                        <div id="trans-screen"></div>
+
+                        <div id="main-sign">
+                            <div class="main-sign-head">
+                                <h2>Sign In Here</h2>
+                                <button onclick="openForm()">X</button>
+                            </div>
+                            <form action="#" onsubmit="submitForm(event)">
+                                <label for="name">Username: </label>
+                                <input type="text" id="name" placeholder="Your Name">
+                                <label for="email">Email Address: </label>
+                                <input type="email" id="email" placeholder="Your Mail Id">
+                                <label for="pass">Password: </label>
+                                <input type="password" id="pass" placeholder="password">
+                                <button type="submit">Submit</button>
+                            </form>
+                        </div>
                         <div class="menu">
                             <i class="fa-solid fa-bars"></i>
                         </div>
@@ -323,7 +340,7 @@
                         <p>Movies</p>
                     </div>
                     <div class="bx-1">
-                        <a href="./ticket.html">Gadar 2</a>
+                        <a href="#">Gadar 2</a>
                         <p>Movies</p>
                     </div>
                 </div>
@@ -349,6 +366,8 @@
         </div>
 
     </div>
+
+    <script src="signin.js"></script>
 </body>
 
 </html>
