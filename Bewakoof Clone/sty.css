@@ -160,6 +160,9 @@
     margin-left: 10px;
 }
 
+.login-parent a{
+    text-decoration: none;
+}
 
 .third-nav{
     height: 59px;
