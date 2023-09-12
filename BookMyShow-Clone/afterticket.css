@@ -162,6 +162,127 @@
     background-color: white;
 }
 
+.body-content-1-left-food-parent {
+    border: 1px solid;
+    width: 96%;
+    height: 400px;
+    margin: auto;
+    overflow-y: scroll;
+}
+
+.body-content-1-left-food-child {
+    display: flex;
+    flex-wrap: wrap;
+    /* Enable wrapping to create a two-column layout */
+    gap: 18px;
+    /* Adjust the gap as needed */
+    padding: 10px 6px 10px 18px;
+    background-color: #ffffff;
+}
+
+.product-box {
+    flex: 0 0 calc(50% - 10px);
+    /* Distribute items evenly in two columns */
+    max-width: calc(50% - 10px);
+    height: 147px;
+    /* Max width for each box */
+    /* border: 1px solid #e35252; */
+    padding: 16px;
+    background-color: #f9f9f9;
+    box-shadow: 1px 4px 5px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 9px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+.product-box-left{
+    width: 25%;
+    height: 90%;
+    /* border: 1px solid green; */
+}
+
+.product-box-left img{
+    width: 100%;
+    height: 80%;
+}
+
+.product-box-right{
+    width: 75%;
+    height: 90%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-box-right-up{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.product-box-right-up h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1a1a1a;
+    padding-left: 6px;
+}
+
+.product-box-right-up h6{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.product-box-right-down{
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
+}
+
+.product-box-right-down-l p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1a1a1a;
+}
+
+.product-box-right-down-r button{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #dc354b;
+    width: 58px;
+    background-color: transparent;
+    border: 1px solid #dc354b;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #body-content-1-right {
     width: 30%;
@@ -195,7 +316,7 @@
     margin-bottom: 10px;
 }
 
-.body-content-1-right-ticket-fee > p{
+.body-content-1-right-ticket-fee>p {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -221,7 +342,7 @@
     margin-bottom: 10px;
 }
 
-.body-content-1-right-convenience-fee> p{
+.body-content-1-right-convenience-fee>p {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
