@@ -177,5 +177,9 @@
     width: 60%;
     height: 100%;
     margin: auto;
+    background-image:  url('https://mobirise.com/extensions/dentalm5/family-dentistry/assets/images/image4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
     /* padding: 0px 55px 0px 68px; */
 }
