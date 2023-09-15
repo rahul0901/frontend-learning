@@ -9,6 +9,12 @@
     font-family: 'Gloock', serif;
 }
 
+.w-90{
+    width: 90%;
+    margin: auto;
+    border: 1px solid;
+}
+
 #screen{
     width: 100%;
     border: 1px solid red;
@@ -182,4 +188,89 @@
     background-repeat: no-repeat;
     background-position:center;
     /* padding: 0px 55px 0px 68px; */
+}
+
+.bc-2-parent > h4:nth-child(1){
+
+    margin-bottom: 50px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    color: #212529;
+}
+
+.bc-2-box{
+    display: flex;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    width: 100%;
+    height: 444px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.bc-2-box-1{
+    width: 32%;
+    height: 100%;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.bc-2-box-1-img{
+    background-image: url('https://mobirise.com/extensions/dentalm5/family-dentistry/assets/images/image10.jpg');
+    width: 100%;
+    height: 370px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.bc-2-box-1 h4{
+    border: 1px solid green;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #212529;
+}
+
+.bc-2-box-1 p{
+    border: 1px solid green;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #212529;
+}
+
+.bc-2-box-2-img{
+    background-image: url('https://mobirise.com/extensions/dentalm5/family-dentistry/assets/images/image5.jpg');
+    width: 100%;
+    height: 370px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.bc-2-box-3-img{
+    background-image: url('https://mobirise.com/extensions/dentalm5/family-dentistry/assets/images/image14.jpg');
+    width: 100%;
+    height: 370px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.bc-2-hr{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 80px;
+    border-bottom: 2px solid #212529;
 }
