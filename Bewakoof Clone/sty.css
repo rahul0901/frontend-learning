@@ -74,7 +74,7 @@
 }
 
 .second-nav-content{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -127,7 +127,7 @@
 .search-input-parent{
     width: 320px;
     background-color: white;    
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 40px;
     display: flex;
     align-items: center;
@@ -346,7 +346,7 @@
 
 .best-seller-card-one{
     max-width:197px;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     /* box-shadow: 2px 2px 2px ; */
 }
 
@@ -402,7 +402,7 @@
     background-color: #181818;
     outline: none;
     border: none;
-    border-bottom: 1px solid #deb028;
+    /* border-bottom: 1px solid #deb028; */
 }
 
 .foot-four-email>button{

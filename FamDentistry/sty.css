@@ -12,18 +12,18 @@
 .w-90{
     width: 90%;
     margin: auto;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 #screen{
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #head{
     width: 100%;
     height: 110px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: #f1f4e9;
 }
 
@@ -32,13 +32,13 @@
     height: 100%;
     margin: auto;
     padding: 20px 0px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .nav-child{
     width: 100%;
     height: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
 }
@@ -46,7 +46,7 @@
 .nav-logo{
     width: 27%;
     height: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     /* padding-left: 16px; */
@@ -65,7 +65,7 @@
 .nav-menu{
     width: 68%;
     height: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,7 +85,7 @@
 .nav-baricon{
     width: 5%;
     height: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     /* padding-right: 16px; */
@@ -95,14 +95,14 @@
 
 #body{
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #f1f4e9;
 }
 
 .body-content-1{
    width: 100%;
    height: 760px;
-   border: 1px solid black;
+   /* border: 1px solid black; */
    display: flex;
    align-items: center;
    /* padding: 80px 0px; */
@@ -114,7 +114,7 @@
     height: 600px;
     /* margin: 0px 51px; */
     /* padding: 0px 16px; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
 }
@@ -122,7 +122,7 @@
 .body-content-1-child-left{
     width: 60%;
     height: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* padding: 0px 16px; */
     display: flex;
     align-items: center;
@@ -130,7 +130,7 @@
 }
 
 .bc-1-child-left-content{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
 }
 
@@ -166,14 +166,14 @@
     letter-spacing: 2px;
     background-color: #f2c4b3;
     border-radius: 26px;
-    border: 1px solid;
+    /* border: 1px solid; */
     outline: none;
 }
 
 .body-content-1-child-right{
     width: 40%;
     height: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     /* padding: 0px 16px; */
@@ -192,7 +192,7 @@
 
 .bc-2-parent > h4:nth-child(1){
 
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     text-align: center;
     font-style: normal;
     font-weight: 400;
@@ -204,7 +204,7 @@
 .bc-2-box{
     display: flex;
     margin-bottom: 50px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     height: 444px;
     justify-content: space-between;
@@ -214,7 +214,7 @@
 .bc-2-box-1{
     width: 32%;
     height: 100%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -231,7 +231,7 @@
 }
 
 .bc-2-box-1 h4{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     font-family: 'Schibsted Grotesk', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -241,7 +241,7 @@
 }
 
 .bc-2-box-1 p{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     font-family: 'Schibsted Grotesk', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -271,6 +271,6 @@
 .bc-2-hr{
     width: 90%;
     margin: auto;
-    margin-bottom: 80px;
-    border-bottom: 2px solid #212529;
+    /* margin-bottom: 80px; */
+    /* border-bottom: 2px solid #212529; */
 }
